@@ -1,0 +1,81 @@
+.box-reverse {
+  background-color: inherit;
+  border-top: 5px solid rgb(122, 122, 122);
+  border-right: 5px solid white;
+  border-left: 5px solid rgb(122, 122, 122);
+  border-bottom: 5px solid white;
+}
+
+.score {
+  color: red;
+  height: 70px;
+  text-align: center;
+  font-size: 61px;
+  width: 85%;
+  margin: 35px auto 40px auto;
+}
+
+.score:hover {
+  cursor: pointer;
+}
+
+.board-wrapp {
+  height: 530px;
+  margin: auto;
+  margin-top: 50px;
+  width: 400px;
+}
+
+.board {
+  display: grid;
+  width: 85%;
+  background-color: #c1c0c1;
+  margin: auto;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.cell {
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  border: 0.5px solid gray;
+}
+
+.box {
+  background-color: inherit;
+  border-bottom: 5px solid rgb(122, 122, 122);
+  border-left: 5px solid white;
+  border-right: 5px solid rgb(122, 122, 122);
+  border-top: 5px solid white;
+}
+
+.play-again-button {
+  position: fixed;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 5px;
+  color: rgb(24, 24, 24);
+  font-size: 40px;
+  background-color: inherit;
+  border-bottom: 5px solid rgb(122, 122, 122);
+  border-left: 5px solid white;
+  border-right: 5px solid rgb(122, 122, 122);
+  border-top: 5px solid white;
+}
+
+.play-again-button:hover {
+  cursor: pointer;
+}
+.play-again-button:active {
+  border-bottom: 1px solid rgb(122, 122, 122);
+  border-left: 3px solid white;
+  border-right: 1px solid rgb(122, 122, 122);
+  border-top: 2px solid white;
+}
+
+.hidden {
+  display: none;
+}
